@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "soap4r-middleware/version"
 
 Gem::Specification.new do |s|
-  s.name        = "soap4r_rack_middleware_es"
+  s.name        = "soap4r-middleware"
   s.version     = Soap4r::Middleware::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Brian Palmer","Fabiano Pavan"]
@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # this gem also works in ruby 1.8.7
-  s.add_dependency 'soap4r_es'
+  #s.add_dependency 'soap4r_es'
 end
