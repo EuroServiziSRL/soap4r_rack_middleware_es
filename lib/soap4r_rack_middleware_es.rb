@@ -176,4 +176,4 @@ module Soap4r
   end
 end
 
-require 'soap4r-middleware/base'
+require 'soap4r_rack_middleware_es/base'

@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "soap4r-middleware/version"
+require "soap4r_rack_middleware_es/version"
 
 Gem::Specification.new do |s|
-  s.name        = "soap4r-middleware"
+  s.name        = "soap4r_rack_middleware_es"
   s.version     = Soap4r::Middleware::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Brian Palmer","Fabiano Pavan"]
