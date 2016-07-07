@@ -75,6 +75,8 @@ module Soap4r
       if !soapaction.nil? and !soapaction.empty?
         if /\A"(.+)"\z/ =~ soapaction
           return $1
+        elsif /(.+)/ =~ soapaction
+          return $1
         end
       end
       nil
